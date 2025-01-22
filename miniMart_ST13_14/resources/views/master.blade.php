@@ -136,6 +136,50 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <p>Product</p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ url('admin/book') }}"
+                           class="nav-link {{ url()->current() == url('admin/book') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>Book</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url('admin/room') }}"
+                           class="nav-link {{ url()->current() == url('admin/room') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>Room</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url('admin/roomtype') }}"
+                           class="nav-link {{ url()->current() == url('admin/roomtype') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>RoomType</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url('admin/staff') }}"
+                           class="nav-link {{ url()->current() == url('admin/staff') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>Staff</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url('admin/customer') }}"
+                           class="nav-link {{ url()->current() == url('admin/customer') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>Customer</p>
+                        </a>
+                    </li>
+
+                    
+                    <li class="nav-item">
+                        <a href="{{ url('admin/service') }}"
+                           class="nav-link {{ url()->current() == url('admin/service') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-project-diagram"></i>
+                            <p>Service</p>
+                        </a>
+                    </li>
                     <li class="nav-item menu-open1">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
